@@ -1,7 +1,36 @@
 {
   "Version": 1,
   "WorkspaceRootPath": "F:\\D\\Csharp\\GIT\\AleRabatSelenium\\",
-  "Documents": [],
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{4092C434-53CA-4EF9-A5F3-75E23C7DEB56}|AleRabatSelenium\\AleRabatSelenium.csproj|f:\\d\\csharp\\git\\alerabatselenium\\alerabatselenium\\testcases\\searchshoptest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4092C434-53CA-4EF9-A5F3-75E23C7DEB56}|AleRabatSelenium\\AleRabatSelenium.csproj|solutionrelative:alerabatselenium\\testcases\\searchshoptest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4092C434-53CA-4EF9-A5F3-75E23C7DEB56}|AleRabatSelenium\\AleRabatSelenium.csproj|f:\\d\\csharp\\git\\alerabatselenium\\alerabatselenium\\pageobjects\\shoppage.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4092C434-53CA-4EF9-A5F3-75E23C7DEB56}|AleRabatSelenium\\AleRabatSelenium.csproj|solutionrelative:alerabatselenium\\pageobjects\\shoppage.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4092C434-53CA-4EF9-A5F3-75E23C7DEB56}|AleRabatSelenium\\AleRabatSelenium.csproj|f:\\d\\csharp\\git\\alerabatselenium\\alerabatselenium\\pageobjects\\mainheader.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4092C434-53CA-4EF9-A5F3-75E23C7DEB56}|AleRabatSelenium\\AleRabatSelenium.csproj|solutionrelative:alerabatselenium\\pageobjects\\mainheader.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4092C434-53CA-4EF9-A5F3-75E23C7DEB56}|AleRabatSelenium\\AleRabatSelenium.csproj|f:\\d\\csharp\\git\\alerabatselenium\\alerabatselenium\\utilities\\xmllocatorreader.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4092C434-53CA-4EF9-A5F3-75E23C7DEB56}|AleRabatSelenium\\AleRabatSelenium.csproj|solutionrelative:alerabatselenium\\utilities\\xmllocatorreader.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4092C434-53CA-4EF9-A5F3-75E23C7DEB56}|AleRabatSelenium\\AleRabatSelenium.csproj|f:\\d\\csharp\\git\\alerabatselenium\\alerabatselenium\\pageobjects\\basepage.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4092C434-53CA-4EF9-A5F3-75E23C7DEB56}|AleRabatSelenium\\AleRabatSelenium.csproj|solutionrelative:alerabatselenium\\pageobjects\\basepage.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4092C434-53CA-4EF9-A5F3-75E23C7DEB56}|AleRabatSelenium\\AleRabatSelenium.csproj|f:\\d\\csharp\\git\\alerabatselenium\\alerabatselenium\\pageobjects\\homepage.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4092C434-53CA-4EF9-A5F3-75E23C7DEB56}|AleRabatSelenium\\AleRabatSelenium.csproj|solutionrelative:alerabatselenium\\pageobjects\\homepage.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4092C434-53CA-4EF9-A5F3-75E23C7DEB56}|AleRabatSelenium\\AleRabatSelenium.csproj|f:\\d\\csharp\\git\\alerabatselenium\\alerabatselenium\\pageobjects\\welcomepage.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4092C434-53CA-4EF9-A5F3-75E23C7DEB56}|AleRabatSelenium\\AleRabatSelenium.csproj|solutionrelative:alerabatselenium\\pageobjects\\welcomepage.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
   "DocumentGroupContainers": [
     {
       "Orientation": 1,
@@ -9,7 +38,7 @@
       "DocumentGroups": [
         {
           "DockedHeight": 200,
-          "SelectedChildIndex": -1,
+          "SelectedChildIndex": 9,
           "Children": [
             {
               "$type": "Bookmark",
@@ -22,6 +51,97 @@
             {
               "$type": "Bookmark",
               "Name": "ST:0:0:{e1b7d1f8-9b3c-49b1-8f4f-bfc63a88835d}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "ShopPage.cs",
+              "DocumentMoniker": "F:\\D\\Csharp\\GIT\\AleRabatSelenium\\AleRabatSelenium\\pageobjects\\ShopPage.cs",
+              "RelativeDocumentMoniker": "AleRabatSelenium\\pageobjects\\ShopPage.cs",
+              "ToolTip": "F:\\D\\Csharp\\GIT\\AleRabatSelenium\\AleRabatSelenium\\pageobjects\\ShopPage.cs",
+              "RelativeToolTip": "AleRabatSelenium\\pageobjects\\ShopPage.cs",
+              "ViewState": "AgIAAAEAAAAAAAAAAAAgwBEAAAAMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-23T17:58:43.482Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "WelcomePage.cs",
+              "DocumentMoniker": "F:\\D\\Csharp\\GIT\\AleRabatSelenium\\AleRabatSelenium\\pageobjects\\WelcomePage.cs",
+              "RelativeDocumentMoniker": "AleRabatSelenium\\pageobjects\\WelcomePage.cs",
+              "ToolTip": "F:\\D\\Csharp\\GIT\\AleRabatSelenium\\AleRabatSelenium\\pageobjects\\WelcomePage.cs",
+              "RelativeToolTip": "AleRabatSelenium\\pageobjects\\WelcomePage.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-23T17:25:36.182Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "MainHeader.cs",
+              "DocumentMoniker": "F:\\D\\Csharp\\GIT\\AleRabatSelenium\\AleRabatSelenium\\pageobjects\\MainHeader.cs",
+              "RelativeDocumentMoniker": "AleRabatSelenium\\pageobjects\\MainHeader.cs",
+              "ToolTip": "F:\\D\\Csharp\\GIT\\AleRabatSelenium\\AleRabatSelenium\\pageobjects\\MainHeader.cs",
+              "RelativeToolTip": "AleRabatSelenium\\pageobjects\\MainHeader.cs",
+              "ViewState": "AgIAAA0AAAAAAAAAAAAmwBMAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-23T16:58:00.339Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "XMLLocatorReader.cs",
+              "DocumentMoniker": "F:\\D\\Csharp\\GIT\\AleRabatSelenium\\AleRabatSelenium\\utilities\\XMLLocatorReader.cs",
+              "RelativeDocumentMoniker": "AleRabatSelenium\\utilities\\XMLLocatorReader.cs",
+              "ToolTip": "F:\\D\\Csharp\\GIT\\AleRabatSelenium\\AleRabatSelenium\\utilities\\XMLLocatorReader.cs",
+              "RelativeToolTip": "AleRabatSelenium\\utilities\\XMLLocatorReader.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-23T16:53:19.391Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "BasePage.cs",
+              "DocumentMoniker": "F:\\D\\Csharp\\GIT\\AleRabatSelenium\\AleRabatSelenium\\pageobjects\\BasePage.cs",
+              "RelativeDocumentMoniker": "AleRabatSelenium\\pageobjects\\BasePage.cs",
+              "ToolTip": "F:\\D\\Csharp\\GIT\\AleRabatSelenium\\AleRabatSelenium\\pageobjects\\BasePage.cs",
+              "RelativeToolTip": "AleRabatSelenium\\pageobjects\\BasePage.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAbAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-23T16:51:29.452Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "HomePage.cs",
+              "DocumentMoniker": "F:\\D\\Csharp\\GIT\\AleRabatSelenium\\AleRabatSelenium\\pageobjects\\HomePage.cs",
+              "RelativeDocumentMoniker": "AleRabatSelenium\\pageobjects\\HomePage.cs",
+              "ToolTip": "F:\\D\\Csharp\\GIT\\AleRabatSelenium\\AleRabatSelenium\\pageobjects\\HomePage.cs",
+              "RelativeToolTip": "AleRabatSelenium\\pageobjects\\HomePage.cs",
+              "ViewState": "AgIAAAUAAAAAAAAAAIAwwBMAAACHAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-23T16:50:07.937Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "SearchShopTest.cs",
+              "DocumentMoniker": "F:\\D\\Csharp\\GIT\\AleRabatSelenium\\AleRabatSelenium\\testcases\\SearchShopTest.cs",
+              "RelativeDocumentMoniker": "AleRabatSelenium\\testcases\\SearchShopTest.cs",
+              "ToolTip": "F:\\D\\Csharp\\GIT\\AleRabatSelenium\\AleRabatSelenium\\testcases\\SearchShopTest.cs",
+              "RelativeToolTip": "AleRabatSelenium\\testcases\\SearchShopTest.cs",
+              "ViewState": "AgIAABMAAAAAAAAAAAAAwCsAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-23T16:37:37.518Z",
+              "EditorCaption": ""
             }
           ]
         }
