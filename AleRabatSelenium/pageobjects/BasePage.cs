@@ -1,13 +1,10 @@
-﻿
-using AleRabatSelenium.utilities;
-using OpenQA.Selenium;
+﻿using OpenQA.Selenium;
 
-namespace AleRabatSelenium.pageobjects
+namespace AleRabatSelenium.Pageobjects
 {
     internal class BasePage
     {
         public IWebDriver driver;
-
 
         public BasePage(IWebDriver driver)
         {

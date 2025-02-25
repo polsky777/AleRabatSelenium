@@ -1,13 +1,8 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-using AleRabatSelenium.helpers;
+﻿using AleRabatSelenium.Helpers;
 using log4net;
 using OpenQA.Selenium;
 
-namespace AleRabatSelenium.pageobjects
+namespace AleRabatSelenium.Pageobjects
 {
     internal class WelcomePage : BasePage
     {

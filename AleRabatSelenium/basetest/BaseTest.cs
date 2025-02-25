@@ -11,7 +11,7 @@ using OpenQA.Selenium.Firefox;
 using OpenQA.Selenium.Remote;
 using log4net.Config;
 
-namespace AleRabatSelenium.basetest
+namespace AleRabatSelenium.Basetest
 {
     [SetUpFixture]
     internal class BaseTest
@@ -46,8 +46,8 @@ namespace AleRabatSelenium.basetest
             try
             {
                 var logRepository = LogManager.GetRepository(System.Reflection.Assembly.GetEntryAssembly());
-                string projectRoot = Directory.GetParent(AppDomain.CurrentDomain.BaseDirectory).Parent.Parent.Parent.FullName;
-                string logConfigPath = Path.Combine(projectRoot, "resources", "log4net.config");
+                var projectRoot = Directory.GetParent(AppDomain.CurrentDomain.BaseDirectory).Parent.Parent.Parent.FullName;
+                var logConfigPath = Path.Combine(projectRoot, "Resources", "log4net.config");
 
                 if (!File.Exists(logConfigPath))
                 {
@@ -57,9 +57,7 @@ namespace AleRabatSelenium.basetest
                 XmlConfigurator.Configure(logRepository, new FileInfo(logConfigPath));
                 log.Info("Test execution started !!!");
 
-                //string configPath = Path.Combine(AppDomain.CurrentDomain.BaseDirectory, "resources");
-
-                string configPath = Path.Combine(projectRoot, "resources");
+                var configPath = Path.Combine(projectRoot, "Resources");
 
                 configuration = new ConfigurationBuilder()
                     .SetBasePath(configPath)
@@ -95,8 +93,6 @@ namespace AleRabatSelenium.basetest
 
         public void Setup(string browserName)
         {
-            //C:\Users\Tomek\Downloads>java -jar selenium-server-4.28.1.jar standalone
-            //http://localhost:4444
             dynamic options = getBrowserOtpion(browserName);
             options.PlatformName = "windows";
             options.AddArgument("--incognito");
@@ -120,7 +116,7 @@ namespace AleRabatSelenium.basetest
                 }
                 else
                 {
-                    throw new ArgumentException("Nieobsługiwana przeglądarka: " + browserName);
+                    throw new ArgumentException("Unsupported browser: " + browserName);
                 }
 
                 log.Info("Running locally");
@@ -152,9 +148,9 @@ namespace AleRabatSelenium.basetest
 
         public static ExtentReports CreateInstance(string fileName)
         {
-            var htmlReporter = new ExtentSparkReporter(Directory.GetParent(Environment.CurrentDirectory).Parent.Parent.FullName + @"\reports\" + fileName);
+            var htmlReporter = new ExtentSparkReporter(Directory.GetParent(Environment.CurrentDirectory).Parent.Parent.FullName + @"\Reports\" + fileName);
             htmlReporter.Config.Theme = Theme.Dark;
-            htmlReporter.Config.DocumentTitle = "MarvelComicBooksWebSite Test Suit";
+            htmlReporter.Config.DocumentTitle = "AleRabatWebSite Test Suit";
             htmlReporter.Config.ReportName = "Automation Test Results";
             htmlReporter.Config.Encoding = "utf-8";
 
@@ -162,7 +158,7 @@ namespace AleRabatSelenium.basetest
             extent.AttachReporter(htmlReporter);
 
             extent.AddSystemInfo("Automation Tester", "Tomasz Polski");
-            extent.AddSystemInfo("Organization", "Marvel Fan");
+            extent.AddSystemInfo("Organization", "AleRabat");
             extent.AddSystemInfo("Buid No ", "Earth-616");
 
             return extent;
@@ -205,7 +201,7 @@ namespace AleRabatSelenium.basetest
         {
             DateTime currentTime = DateTime.Now;
             string fileName = currentTime.ToString("yyyy-MM-dd_HH-mm-ss") + ".jpg";
-            var screenshotPath = Path.Combine(Directory.GetParent(Environment.CurrentDirectory).Parent.Parent.FullName, "screenshots", "error" + fileName);
+            var screenshotPath = Path.Combine(Directory.GetParent(Environment.CurrentDirectory).Parent.Parent.FullName, "Screenshots", "error" + fileName);
 
             ITakesScreenshot screenshotDriver = GetDriver() as ITakesScreenshot;
 

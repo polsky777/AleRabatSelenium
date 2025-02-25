@@ -1,11 +1,7 @@
 ﻿using OfficeOpenXml;
-using System.ComponentModel;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 using LicenseContext = OfficeOpenXml.LicenseContext;
 
-namespace AleRabatSelenium.utilities
+namespace AleRabatSelenium.Utilities
 {
     internal class DataUtilities
     {
@@ -20,7 +16,7 @@ namespace AleRabatSelenium.utilities
             {
                 if (!File.Exists(filePath))
                 {
-                    throw new FileNotFoundException($"Plik Excel nie został znaleziony: {filePath}");
+                    throw new FileNotFoundException($"The Excel file was not found: {filePath}");
                 }
 
                 var worksheet = package.Workbook.Worksheets[sheetName];

@@ -1,6 +1,6 @@
 ﻿using System.Xml;
 
-namespace AleRabatSelenium.utilities
+namespace AleRabatSelenium.Utilities
 {
     internal class XMLLocatorReader
     {
@@ -12,7 +12,7 @@ namespace AleRabatSelenium.utilities
             /// Load XML File
             /// </summary>
             XmlDocument xmlDoc = new XmlDocument();
-            xmlDoc.Load(Directory.GetParent(Environment.CurrentDirectory).Parent.Parent.FullName + "\\resources\\locators.xml");
+            xmlDoc.Load(Directory.GetParent(Environment.CurrentDirectory).Parent.Parent.FullName + "\\Resources\\locators.xml");
 
             /// <summary>
             /// Get the root element

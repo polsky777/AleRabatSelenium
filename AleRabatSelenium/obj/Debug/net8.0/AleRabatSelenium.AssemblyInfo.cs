@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("AleRabatSelenium")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+fa511fca8ebbcb34775f323671fac65048e88a68")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+6163d33c4016ba2b436ba05637f8599ab9678da9")]
 [assembly: System.Reflection.AssemblyProductAttribute("AleRabatSelenium")]
 [assembly: System.Reflection.AssemblyTitleAttribute("AleRabatSelenium")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

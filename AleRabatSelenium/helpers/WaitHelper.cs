@@ -4,7 +4,7 @@ using OpenQA.Selenium;
 using SeleniumExtras.WaitHelpers;
 
 
-namespace AleRabatSelenium.helpers
+namespace AleRabatSelenium.Helpers
 {
     public static class WaitHelper
     {
@@ -41,9 +41,7 @@ namespace AleRabatSelenium.helpers
         /// </summary>
         public static IWebElement WaitForElementClickable(IWebDriver driver, By by, int timeoutInSeconds = 0)
         {
-
-            var xxx = WaitForCondition(driver, ExpectedConditions.ElementToBeClickable(by), timeoutInSeconds);
-            return xxx;
+            return WaitForCondition(driver, ExpectedConditions.ElementToBeClickable(by), timeoutInSeconds);
         }
 
         /// <summary>
@@ -53,7 +51,7 @@ namespace AleRabatSelenium.helpers
         {
             if (driver == null) throw new ArgumentNullException(nameof(driver));
 
-            int timeout = timeoutInSeconds > 0 ? timeoutInSeconds : defaultTimeout;
+            var timeout = timeoutInSeconds > 0 ? timeoutInSeconds : defaultTimeout;
             WebDriverWait wait = new WebDriverWait(driver, TimeSpan.FromSeconds(timeout));
             return wait.Until(condition);
         }
